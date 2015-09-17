@@ -1,0 +1,1 @@
+The Whey to Cheese will be a site that helps people learn more about cheeses, build cheese plates based on their interests, and provides opportunities for further cheese learning. 
