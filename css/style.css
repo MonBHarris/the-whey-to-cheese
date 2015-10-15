@@ -1,0 +1,51 @@
+
+body {
+  font-family: 'Bitter', serif;
+  background-image: url("images/slate-texture.jpg")
+}
+
+div {
+  width: 100%;
+  display: block;
+}
+
+header {
+  width: 100%;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+img.icon {
+  width: 15%;
+}
+
+
+nav a {
+  padding-right: 2%;
+}
+
+.browse {
+  background-color: #B8C4CC;
+  text-align: center;
+}
+
+.build {
+  background-color: #A1ACB2;
+  text-align: center;
+}
+
+.learn {
+  background-color: #B8C4CC;
+  text-align: center;
+
+}
+
+.about {
+  background-color: #A1ACB2;
+  text-align: center;
+}
+
+img, form, input, video, audio {
+  max-width: 100%;
+  width:100%;
+}
