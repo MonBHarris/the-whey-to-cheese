@@ -1,48 +1,84 @@
 
 body {
   font-family: 'Bitter', serif;
-  background-image: url("images/slate-texture.jpg")
 }
 
-div {
-  width: 100%;
+div.browse,.build,.learn,.about {
+  width: 33.33%;
   display: block;
+  float: left;
+}
+
+footer {
+  background-color: #A1ACB2;
+  clear: both;
+  text-align: center;
+  width: 100%;
+}
+
+footer a {
+  color: #FFFFE5;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: #D9F0FF;
 }
 
 header {
   width: 100%;
-  font-size: 1.5em;
   text-align: center;
+  background-color: #A1ACB2; 
+}
+
+i {
+  color: #FFFFE5; 
+  padding: 5% 0;
+}
+
+i:hover {
+  color: #D9F0FF;
 }
 
 img.icon {
-  width: 15%;
+  width: 20%;
+  color: #FFFFE5; 
 }
 
 
 nav a {
   padding-right: 2%;
+  text-decoration: none;
+  color: #FFFFE5;
+  font-size: 1.5em;
 }
 
-.browse {
+/*////FIX THIS COLOR/////*/
+nav a:hover {
+  color: #D9F0FF;
+}
+
+p.hero {
+  padding: 12% 0;
+}
+
+.hero {
+  background: url('../images/cheese-plate.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.browse, .build, .learn, .about  {
   background-color: #B8C4CC;
   text-align: center;
-}
-
-.build {
-  background-color: #A1ACB2;
-  text-align: center;
-}
-
-.learn {
-  background-color: #B8C4CC;
-  text-align: center;
-
-}
-
-.about {
-  background-color: #A1ACB2;
-  text-align: center;
+  color: #FFFFE5;  
 }
 
 img, form, input, video, audio {
