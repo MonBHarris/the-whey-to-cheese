@@ -54,6 +54,17 @@ nav a {
   font-size: 1.5em;
 }
 
+/*/ Filter Styling /*/
+
+div#flavor, #texture, #milkType, #originCountry, #goodFor {
+  width: 20%;
+  display: block;
+  float: left;
+
+}
+
+
+
 /*////FIX THIS COLOR/////*/
 nav a:hover {
   color: #D9F0FF;
