@@ -3,12 +3,6 @@ body {
   font-family: 'Bitter', serif;
 }
 
-div.browse,.build,.learn,.about {
-  width: 33.33%;
-  display: block;
-  float: left;
-}
-
 footer {
   background-color: #A1ACB2;
   clear: both;
@@ -18,7 +12,7 @@ footer {
 
 footer a {
   color: #FFFFE5;
-  font-size: 1em;
+  font-size: 1.25em;
   text-decoration: none;
 }
 
@@ -59,10 +53,33 @@ nav a {
 div#flavor, #texture, #milkType, #originCountry, #goodFor {
   width: 20%;
   display: block;
-  float: left;
+  float: left; 
 
 }
 
+section.filters {
+  background-color: #FFFFE5;
+}
+
+input[type='checkbox'] { 
+  display: inline-block;
+  margin: 1em;
+}
+
+div.clearfix {
+  clear: both;
+  height: 1px;
+}
+
+div.wrapper {
+  width: 1050px;
+  display: block; 
+  margin:0 auto;
+}
+
+#cheeseDisplay {
+  background color: #FFFFE5;
+}
 
 
 /*////FIX THIS COLOR/////*/
@@ -74,8 +91,16 @@ p.hero {
   padding: 12% 0;
 }
 
+p.hero a {
+  text-decoration: none;
+  font-size: 2em;
+  color: #A1ACB2;
+  text-shadow: 2px 2px 5px #000000;
+
+}
+
 .hero {
-  background: url('../images/cheese-plate.jpg') no-repeat center center;
+  background: url('../images/cheese-board-sample.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -92,7 +117,7 @@ p.hero {
   color: #FFFFE5;  
 }
 
-img, form, input, video, audio {
+img, form, video, audio {
   max-width: 100%;
   width:100%;
 }

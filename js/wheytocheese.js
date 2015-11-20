@@ -8,7 +8,7 @@ var allCheeses = [
     texture: 'smooth',
     milkType: 'cow',
     originCountry: 'USA',
-    goodFor: 'adventerous'
+    goodFor: 'adventerous',
   },
   {
     id: "2",
@@ -17,8 +17,62 @@ var allCheeses = [
     texture: 'firm',
     milkType: 'cow',
     originCountry: 'Holland',
-    goodFor: 'everyone'
-  }
+    goodFor: 'everyone',
+  },
+  {
+    id: "3",
+    name: 'Cabot Clothbound Cheddar',
+    flavor: 'nutty, mild',
+    texture: 'firm',
+    milkType: 'cow',
+    originCountry: 'USA',
+    goodFor: 'everyone',
+  },
+  {
+    id: "4",
+    name: 'Harbison',
+    flavor: 'woodsy',
+    texture: 'creamy',
+    milkType: 'cow',
+    originCountry: 'USA',
+    goodFor: 'foodies',
+  },
+  {
+    id: "5",
+    name: 'Midnight Moon',
+    flavor: 'sweet',
+    texture: 'sliceable',
+    milkType: 'goat',
+    originCountry: 'USA',
+    goodFor: 'kids',
+  },
+  {
+    id: "6",
+    name: 'Manchego',
+    flavor: 'nutty',
+    texture: 'firm',
+    milkType: 'sheep',
+    originCountry: 'Spain',
+    goodFor: 'everyone',
+  },
+  {
+    id: "7",
+    name:'Delice de Argental',
+    flavor: 'sweet',
+    texture: 'creamy',
+    milkType: 'cow',
+    originCountry: 'France',
+    goodFor: 'everyone',
+  },
+  {
+    id: "8",
+    name: 'Gruyere',
+    flavor: 'nutty',
+    texture: 'firm',
+    milkType: 'cow',
+    originCountry: 'France',
+    goodFor: 'everyone',
+  },
 ];
 
 function setupCheese(cheese) {
@@ -51,7 +105,7 @@ function setupCheeses() {
 
 function setupCheeseFilter(filterCollection, filterId) {
   $.each(filterCollection, function (i, filter){
-    $('<input type="checkbox" value="'+filter+'" ><span>'+filter+'</span>').appendTo('#'+filterId);  
+    $('<div><input type="checkbox" value="'+filter+'" >'+filter+'</label></div>').appendTo('#'+filterId);  
   });
 }
 
